@@ -14,9 +14,17 @@
       rel="stylesheet"
     />
     <link
+      href="https://fonts.googleapis.com/css2?family=poppins:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
     />
+    <script
+      src="https://kit.fontawesome.com/64d58efce2.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <!-- NavBar -->
@@ -27,8 +35,8 @@
           <li><a href="#">Home</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#skills">Skills</a></li>
-          <li><a href="#">Education</a></li>
-          <li><a href="#">Contact</a></li>
+          <!-- <li><a href="#">Education</a></li> -->
+          <li><a href="#contact">Contact</a></li>
         </ul>
         <div class="sociallogo">
           <i class="bx bxl-linkedin-square"></i>
@@ -52,16 +60,13 @@
       <h2>About Me</h2>
       <div class="about-container">
         <div class="about-img-container">
-          <img
-            src="https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1964&q=80"
-            alt=""
-          />
+          <img src="images/laptop.jpg" alt="" />
         </div>
         <div class="about-text-container">
           <h3>Designing Is My Passion</h3>
           <p>
             As a computer science student, I am eager to embark on a career in
-            the IT industry to leverage my technical skills and contribute to
+            the IT industry to leverage my technical skillsets and contribute to
             technological advancements.I am passionate about pursuing a career
             in the IT sector because it allows me to work on projects that have
             a global impact and improve the way we live and work.
@@ -75,13 +80,132 @@
       <div class="skills-main-container">
         <h2>My Skills</h2>
         <div class="skills-container">
-          <div class="skill1">skill1</div>
-          <div class="skill2">skill2</div>
-          <div class="skill3">skill3</div>
+          <h3>Skills Reflects Our Knowledge</h3>
+          <div class="row">
+            <div class="item">
+              <div class="item-text">
+                <span>HTML</span>
+                <span class="w-80">80%</span>
+              </div>
+              <div class="progress">
+                <div class="progress-bar w-80"></div>
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="item-text">
+                <span>CSS</span>
+                <span class="w-70">70%</span>
+              </div>
+              <div class="progress">
+                <div class="progress-bar w-70"></div>
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="item-text">
+                <span>JavaScript</span>
+                <span class="w-50">50%</span>
+              </div>
+              <div class="progress">
+                <div class="progress-bar w-50"></div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="item-text">
+                <span>Java</span>
+                <span class="w-65">65%</span>
+              </div>
+              <div class="progress">
+                <div class="progress-bar w-65"></div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
     <!-- Contact -->
-    <section class="skills" id="skills"></section>
+    <section class="contact" id="contact">
+      <div class="skills-main-container">
+        <h2>Contacts</h2>
+        <div class="contact-main-container">
+          <div class="form">
+            <div class="contact-info">
+              <h3 class="title">Let's get in touch</h3>
+              <p class="text">
+                “Reach out to us and let’s create something amazing together!”
+              </p>
+
+              <div class="info">
+                <div class="information">
+                  <i class="bx bx-current-location icon"></i>
+                  <p>Namakkal, Tamil Nadu, India</p>
+                </div>
+                <div class="information">
+                  <i class="bx bx-envelope icon"></i>
+                  <p>sumukhivasanthakumar@gmail.com</p>
+                </div>
+                <div class="information">
+                  <i class="bx bx-phone icon"></i>
+                  <p>xxxxxxxxx</p>
+                </div>
+              </div>
+
+              <div class="social-media">
+                <p>Connect with me :</p>
+                <div class="social-icons">
+                  <a href="#">
+                    <i class="bx bxl-linkedin-square"></i>
+                  </a>
+                  <a href="#">
+                    <i class="bx bxl-github"></i>
+                  </a>
+                  <a href="#">
+                    <i class="bx bxl-telegram"></i>
+                  </a>
+                  <a href="#">
+                    <i class="bx bxl-whatsapp"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="contact-form">
+              <form action="index.html" autocomplete="off">
+                <h3 class="title">Contact us</h3>
+                <div class="input-container">
+                  <input type="text" name="name" class="input" />
+                  <label for="">Username</label>
+                  <span>Username</span>
+                </div>
+                <div class="input-container">
+                  <input type="email" name="email" class="input" />
+                  <label for="">Email</label>
+                  <span>Email</span>
+                </div>
+                <div class="input-container">
+                  <input type="tel" name="phone" class="input" />
+                  <label for="">Phone</label>
+                  <span>Phone</span>
+                </div>
+                <div class="input-container textarea">
+                  <textarea name="message" class="input"></textarea>
+                  <label for="">Message</label>
+                  <span>Message</span>
+                </div>
+                <input type="submit" value="Send" class="btn contact-btn" />
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <p class="text">
+        <span>
+          Created By <a href="#">Sumukhi V</a>| ©2023 All Rights Reserved
+        </span>
+      </p>
+    </footer>
   </body>
 </html>
